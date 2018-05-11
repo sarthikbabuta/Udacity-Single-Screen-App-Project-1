@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:src="@drawable/places"
+            android:id="@+id/imageid1"
+            android:scaleType="centerCrop"
+            />
+        <TextView
+            android:id="@+id/textid1"
+            android:text="Welcome To Places Page"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_margin="8dp"
+            android:fontFamily="monospace"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/imageid1"/>
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/tajmahal"
+            android:id="@+id/imgid2"
+            android:layout_below="@id/textid1"
+            android:layout_margin="5dp" />
+        <TextView
+            android:id="@+id/textid2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Taj Mahal"
+            android:layout_toRightOf="@+id/imgid2"
+            android:fontFamily="monospace"
+            android:layout_below="@id/textid1"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_margin="10dp"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/redfort"
+            android:id="@+id/imgid3"
+            android:layout_below="@id/textid2"
+            android:layout_margin="5dp" />
+        <TextView
+            android:id="@+id/textid3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red Fort"
+            android:layout_toRightOf="@+id/imgid2"
+            android:fontFamily="monospace"
+            android:layout_below="@id/textid2"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_margin="10dp"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/qutubminar"
+            android:id="@+id/imgid4"
+            android:layout_below="@id/textid3"
+            android:layout_margin="5dp" />
+        <TextView
+            android:id="@+id/textid4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Qutub Minar"
+            android:layout_toRightOf="@+id/imgid3"
+            android:fontFamily="monospace"
+            android:layout_below="@id/textid3"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_margin="10dp"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/goldentemple"
+            android:id="@+id/imgid5"
+            android:layout_below="@id/textid4"
+            android:layout_margin="5dp" />
+        <TextView
+            android:id="@+id/textid5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Golden Temple"
+            android:layout_toRightOf="@+id/imgid4"
+            android:fontFamily="monospace"
+            android:layout_below="@id/textid4"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_margin="10dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/textid6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact us +919803668245"
+            android:fontFamily="monospace"
+            android:autoLink="phone"
+            android:layout_below="@id/textid5"
+            android:textColor="#ff33ac"
+            android:layout_margin="10dp"
+            android:textSize="18sp"/>
+    </RelativeLayout>
+</ScrollView>
+
